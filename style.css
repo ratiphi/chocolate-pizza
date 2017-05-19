@@ -14,6 +14,29 @@ a {
 }
 
 /* app styles */
+#logo {
+  display: inline;
+}
+
+#headertext {
+  display: inline;
+}
+
+#headertext h1 {
+  display: block;
+}
+
+#headertext {
+  display: block;
+}
+
+#icons {
+  display: inline;
+}
+
+#icons ul li {
+  display: inline;
+}
 
 header {
   height: 100px;
