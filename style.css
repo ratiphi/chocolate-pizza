@@ -38,13 +38,20 @@ a {
   display: inline;
 }
 
+.section-break {
+  width: 901px;
+  height: 13px;
+  margin: 0 auto;
+  background-color: #999;
+  background-image: repeating-linear-gradient(45deg, white, white 2px, #dadada 2px, #dadada 4px);
+}
+
 header {
   height: 100px;
-  background: #444;
 }
 
 header div {
-  width: 960px;
+  width: 901px;
   margin: 0 auto;
   outline: dotted 3px green;
 }
@@ -62,12 +69,17 @@ nav ul li {
 }
 
 main {
-  width: 960px;
+  width: 901px;
   margin: 30px auto;
   outline: dotted 3px orange;
 }
 
-.sub-banners {
+footer {
+  margin-top: 30px;
+  height: 300px;
+}
+
+/*.sub-banners {
   margin-top: 30px;
 }
 
@@ -112,10 +124,4 @@ main {
   border-radius: 3px;
   margin-top: 20px;
   cursor: pointer;
-}
-
-footer {
-  margin-top: 30px;
-  height: 150px;
-  background: #222;
-}
+}*/
