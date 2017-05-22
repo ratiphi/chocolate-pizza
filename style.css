@@ -31,11 +31,16 @@ a {
 }
 
 #icons {
-  display: inline;
+  display: inline-block;
 }
 
 #icons ul li {
   display: inline;
+}
+
+header div ul li img {
+  display:inline;
+  margin: 2px;
 }
 
 .section-break {
@@ -56,6 +61,20 @@ header div {
   outline: dotted 3px green;
 }
 
+header div h1 {
+  font-family: 'Yellowtail', cursive;
+  font-size: 35px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+header div p {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #555;
+}
+
 header div img {
   float: left;
   margin-right: 50px;
@@ -72,6 +91,13 @@ main {
   width: 901px;
   margin: 30px auto;
   outline: dotted 3px orange;
+}
+
+main h1 {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 35px;
+  text-transform: capitalize;
+  font-weight: 600;
 }
 
 footer {
